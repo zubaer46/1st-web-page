@@ -1,0 +1,67 @@
+/* Global CSS */
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background: url(../images/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Login Page Design */
+.login-box{
+	width: 350px;
+	height: 550px;
+	background: #eee;
+	margin: 75px auto;
+	padding: 20px;
+	box-shadow: 0px 0px 15px #333;
+}
+.avatar{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto 25px;
+}
+.login-box h2{
+	text-align: center;
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+.form-group{
+	margin: 15px 0px;
+}
+.form-group label{
+	display: block;
+}
+.form-control{
+	width: 93%;
+    height: 25px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.btn-login{
+	background: #31BAFD;
+    border: 1px solid #31BAFD;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-login:hover{
+	cursor: pointer;
+	background: #2B3B4E;
+	border: 1px solid #2B3B4E;
+	transition: 0.4s ease-in-out;
+}
+.login-box ul{
+	padding: 0;
+}
+.login-box ul li{
+	list-style: none;
+}
